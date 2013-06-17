@@ -1,25 +1,32 @@
-# XitecCoreGems
+# X-ITEC Core-Gems for Rails 3 / 4
 
-This is an internal gem for app-development.
+This is an internal gem for app-development. It implements some core-gems we need for most projects.
+If you know some other interesting ones, let us now - fork and contribute.
+
+Boris Köster
+http://www.x-itec.net
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'xitec_core_gems'
+gem 'xitec_core_gems', git: 'git://github.com/x-itec/xitec_core_gems.git' # github
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install it yourself as: (currently not available)
 
     $ gem install xitec_core_gems
 
 ## Usage
 
-This is an unofficial test version
+This Gemfile just loads and installs some other gems we need every day.
 
+This is an unofficial version for internal purposes only. If everything works as expected,
+we may release a "stable" version of it.
 
 ## Contributing
 
