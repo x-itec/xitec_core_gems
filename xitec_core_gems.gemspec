@@ -22,6 +22,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_dependency "uuid"
-
+  spec.add_dependency "capybara"
+  spec.add_dependency "yard"
+  spec.add_dependency "redcarpet"
+  spec.add_dependency "rails_best_practices"
+  spec.add_dependency "simplecov"
+  spec.add_dependency "simplecov-rcov"
 
 end
