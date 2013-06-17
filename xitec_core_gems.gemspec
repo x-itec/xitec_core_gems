@@ -37,5 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "split"
   spec.add_dependency "yard"
   spec.add_dependency "cucumber"
-
+  spec.add_dependency "celluloid"
 end
