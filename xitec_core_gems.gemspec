@@ -21,6 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 
+  #QA another gem - just the basics 
+
   spec.add_dependency "uuid"
   spec.add_dependency "capybara"
   spec.add_dependency "yard"
@@ -28,5 +30,12 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails_best_practices"
   spec.add_dependency "simplecov"
   spec.add_dependency "simplecov-rcov"
+  spec.add_dependency "will_paginate"
+  spec.add_dependency "guard"
+  spec.add_dependency "rspec"
+  spec.add_dependency "vanity"
+  spec.add_dependency "split"
+  spec.add_dependency "yard"
+  spec.add_dependency "cucumber"
 
 end
