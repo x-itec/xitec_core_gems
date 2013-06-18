@@ -38,4 +38,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "yard"
   spec.add_dependency "cucumber"
   spec.add_dependency "celluloid"
+  spec.add_dependency "pidfile"
+  spec.add_dependency "daemons"
+  spec.add_dependency "whenever"
+  spec.add_dependency "amqp"
+  spec.add_dependency "eventmachine" 
+  spec.add_dependency "dropbox-sdk"
 end
