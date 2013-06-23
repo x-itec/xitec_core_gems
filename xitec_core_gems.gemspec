@@ -44,4 +44,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "amqp"
   spec.add_dependency "eventmachine" 
   spec.add_dependency "dropbox-sdk"
+  spec.add_dependency "escort"
 end
