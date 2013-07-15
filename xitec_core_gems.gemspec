@@ -45,4 +45,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "eventmachine" 
   spec.add_dependency "dropbox-sdk"
   spec.add_dependency "escort"
+  spec.add_dependency "paperclip"
 end
